@@ -1,0 +1,265 @@
+# =====================================================
+# Sistema de Recomendação Musical com Neo4j
+# Arquivo .gitignore - Versão 1.0.0
+# =====================================================
+
+# =====================================================
+# NEO4J - Arquivos do banco de dados
+# =====================================================
+# Diretórios de dados do Neo4j (quando rodando localmente)
+data/databases/
+data/transactions/
+data/dbms/
+data/neo4j/
+data/import/
+data/logs/
+data/metrics/
+data/backups/
+data/certificates/
+data/run/
+
+# Arquivos de backup locais (não versionar backups grandes)
+*.dump
+*.backup
+*.tar.gz
+!data/backup/aura-backup-2024.backup  # Exceção para o backup oficial
+
+# Arquivos de log do Neo4j
+*.log
+debug.log
+query.log
+security.log
+
+# =====================================================
+# AMBIENTES VIRTUAIS PYTHON
+# =====================================================
+# Virtual Environment
+python-integration/venv/
+python-integration/env/
+python-integration/.venv/
+python-integration/.env/
+python-integration/__pycache__/
+venv/
+env/
+.venv/
+.env/
+
+# Arquivos de cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribuições / pacotes Python
+python-integration/build/
+python-integration/develop-eggs/
+python-integration/dist/
+python-integration/downloads/
+python-integration/eggs/
+python-integration/.eggs/
+python-integration/lib/
+python-integration/lib64/
+python-integration/parts/
+python-integration/sdist/
+python-integration/var/
+python-integration/wheels/
+*.egg-info/
+*.egg
+
+# Arquivos de instalação do pip
+python-integration/pip-wheel-metadata/
+python-integration/share/python-wheels/
+
+# =====================================================
+# ARQUIVOS DE CONFIGURAÇÃO E CREDENCIAIS
+# =====================================================
+# Arquivos de ambiente (contêm senhas!)
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+.env.test
+credentials.json
+secrets/
+secrets.*
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+*.keystore
+
+# Configurações de IDE com credenciais
+.idea/dataSources/
+.idea/dataSources.xml
+.idea/dictionaries/
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# =====================================================
+# ARQUIVOS DO SISTEMA OPERACIONAL
+# =====================================================
+# macOS
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =====================================================
+# ARQUIVOS DE LOG E TEMPORÁRIOS
+# =====================================================
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Arquivos temporários
+tmp/
+temp/
+*.tmp
+*.temp
+*.cache
+*.pid
+*.seed
+*.pid.lock
+
+# =====================================================
+# ARQUIVOS DE EDITORES DE TEXTO/IDE
+# =====================================================
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/settings.example.json
+
+# IntelliJ IDEA / PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+.metadata/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# =====================================================
+# ARQUIVOS DE DOCUMENTAÇÃO GERADOS
+# =====================================================
+# Arquivos temporários de documentação
+docs/_build/
+docs/_site/
+docs/.cache/
+docs/.jekyll-cache/
+
+# =====================================================
+# DEPENDÊNCIAS E PACOTES
+# =====================================================
+# Node (caso use para alguma ferramenta)
+node_modules/
+npm-debug.log
+package-lock.json
+yarn.lock
+
+# Docker
+*.docker
+docker-compose.override.yml
+.dockerignore
+*.dockerignore
+
+# =====================================================
+# ARQUIVOS GRANDES E MÍDIA
+# =====================================================
+# Não versionar arquivos grandes
+*.mp3
+*.mp4
+*.wav
+*.flac
+*.ogg
+*.mov
+*.avi
+*.mkv
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.iso
+
+# =====================================================
+# ARQUIVOS ESPECÍFICOS DO PROJETO
+# =====================================================
+# Arquivos de backup manual
+backup/
+manual-backup/
+old/
+archive/
+
+# Arquivos de teste que geram dados
+test-output/
+test-results/
+coverage/
+htmlcov/
+.tox/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =====================================================
+# NOTAS IMPORTANTES
+# =====================================================
+# Para adicionar exceções, use ! antes do padrão
+# Exemplo: !data/backup/meu-backup-oficial.backup
+
+# Para arquivos de configuração com exemplos (sem senhas)
+!.env.example
+!config.example.yml
+!docker-compose.example.yml
+!.vscode/settings.example.json

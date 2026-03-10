@@ -1,0 +1,23 @@
+/ -----------------------------------------------------
+// CRIACAO DOS USUARIOS (20 usuarios)
+// -----------------------------------------------------
+CREATE (u1:usuario {ID: 10129837465, email: 'alice.silva@email.com'}) SET u1.caption = 'Alice Silva'
+CREATE (u2:usuario {ID: 10238561904, email: 'bruno.oliveira@email.com'}) SET u2.caption = 'Bruno Oliveira'
+CREATE (u3:usuario {ID: 10347581236, email: 'carla.santos@email.com'}) SET u3.caption = 'Carla Santos'
+CREATE (u4:usuario {ID: 10456982317, email: 'diego.lima@email.com'}) SET u4.caption = 'Diego Lima'
+CREATE (u5:usuario {ID: 10567893452, email: 'elena.pereira@email.com'}) SET u5.caption = 'Elena Pereira'
+CREATE (u6:usuario {ID: 10678234569, email: 'felipe.almeida@email.com'}) SET u6.caption = 'Felipe Almeida'
+CREATE (u7:usuario {ID: 10789123457, email: 'gabriela.costa@email.com'}) SET u7.caption = 'Gabriela Costa'
+CREATE (u8:usuario {ID: 10890123876, email: 'henrique.rocha@email.com'}) SET u8.caption = 'Henrique Rocha'
+CREATE (u9:usuario {ID: 10901234785, email: 'isabela.martins@email.com'}) SET u9.caption = 'Isabela Martins'
+CREATE (u10:usuario {ID: 11012345698, email: 'joao.pedro@email.com'}) SET u10.caption = 'Joao Pedro'
+CREATE (u11:usuario {ID: 11123456789, email: 'karina.fernandes@email.com'}) SET u11.caption = 'Karina Fernandes'
+CREATE (u12:usuario {ID: 11234567890, email: 'lucas.mendes@email.com'}) SET u12.caption = 'Lucas Mendes'
+CREATE (u13:usuario {ID: 11345678901, email: 'mariana.ribeiro@email.com'}) SET u13.caption = 'Mariana Ribeiro'
+CREATE (u14:usuario {ID: 11456789012, email: 'nicolas.barbosa@email.com'}) SET u14.caption = 'Nicolas Barbosa'
+CREATE (u15:usuario {ID: 11567890123, email: 'olivia.carvalho@email.com'}) SET u15.caption = 'Olivia Carvalho'
+CREATE (u16:usuario {ID: 11678901234, email: 'pedro.henrique@email.com'}) SET u16.caption = 'Pedro Henrique'
+CREATE (u17:usuario {ID: 11789012345, email: 'renata.dias@email.com'}) SET u17.caption = 'Renata Dias'
+CREATE (u18:usuario {ID: 11890123456, email: 'samuel.freitas@email.com'}) SET u18.caption = 'Samuel Freitas'
+CREATE (u19:usuario {ID: 11901234567, email: 'tatiane.nunes@email.com'}) SET u19.caption = 'Tatiane Nunes'
+CREATE (u20:usuario {ID: 12012345678, email: 'vinicius.araujo@email.com'}) SET u20.caption = 'Vinicius Araujo'

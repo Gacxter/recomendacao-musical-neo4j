@@ -1,0 +1,23 @@
+// -----------------------------------------------------
+// CRIACAO DOS GÊNEROS
+// -----------------------------------------------------
+CREATE (g1:genero {caption: 'Power Metal'})
+CREATE (g2:genero {caption: 'Pop'})
+CREATE (g3:genero {caption: 'Sertanejo'})
+CREATE (g4:genero {caption: 'Eletrônica'})
+CREATE (g5:genero {caption: 'MPB'})
+CREATE (g6:genero {caption: 'Rock'})
+CREATE (g7:genero {caption: 'Jazz'})
+CREATE (g8:genero {caption: 'Funk'})
+CREATE (g9:genero {caption: 'Heavy Metal'})
+CREATE (g10:genero {caption: 'R&B'})
+CREATE (g11:genero {caption: 'Rock Alternativo'})
+CREATE (g12:genero {caption: 'Tropicalia'})
+CREATE (g13:genero {caption: 'Hip Hop'})
+CREATE (g14:genero {caption: 'Samba'})
+CREATE (g15:genero {caption: 'Blues'})
+CREATE (g16:genero {caption: 'Indie'})
+CREATE (g17:genero {caption: 'Reggae'})
+CREATE (g18:genero {caption: 'Country'})
+CREATE (g19:genero {caption: 'Clássico'})
+CREATE (g20:genero {caption: 'Disco'})
