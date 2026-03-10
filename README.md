@@ -110,7 +110,7 @@ Verifique o arquivo de backup:
 
 bash
 # O arquivo está localizado em:
-data/backup/aura-backup-2024.backup
+data/backup/neo4j-2026-02-22T21-54-55-02526bf5.backup
 No Neo4j Aura Console:
 
 Acesse console.neo4j.io
